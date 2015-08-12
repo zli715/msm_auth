@@ -1,3 +1,9 @@
+GIT
+  remote: http://github.com/rbetina/starter_generators.git
+  revision: 092c9b5e2322b442b597be6a62e713541bd2fa60
+  specs:
+    starter_generators (0.9.6)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -179,6 +185,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   sqlite3
+  starter_generators!
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
