@@ -12,11 +12,21 @@
       <dd><%= @director.dob %></dd>
 
       <dt>Bio</dt>
-      <dd><%= @director.bio %></dd>
+      <dd><%= truncate(@director.bio) %></dd>
 
-      <dt>Image url</dt>
-      <dd><%= @director.image_url %></dd>
+      <dt>Image</dt>
+      <dd><img src="<%= @director.image_url %>" width="100"></dd>
 
+      <dt>Number of movies</dt>
+      <dd>17</dd>
+
+      <dt>Filmography</dt>
+      <dd>
+        <ul class="list-group">
+          <li class="list-group-item">First movie</li>
+          <li class="list-group-item">Second movie</li>
+        </ul>
+      </dd>
     </dl>
 
     <div class="btn-group btn-group-justified">
