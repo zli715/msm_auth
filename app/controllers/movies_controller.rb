@@ -21,7 +21,7 @@ class MoviesController < ApplicationController
     @movie.director_id = params[:director_id]
 
     if @movie.save
-      redirect_to "/movies", :notice => "Movie created successfully."
+      redirect_to :back, :notice => "Movie created successfully."
     else
       render 'new'
     end
