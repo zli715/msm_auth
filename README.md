@@ -9,12 +9,12 @@ In this project, we'll practice associating rows from different tables to one an
 1. `bundle install`
 1. Generate the Director resource:
 
-       rails generate starter:resource director name:string dob:string bio:text image_url:string
+        rails generate starter:resource director name:string dob:string bio:text image_url:string
 
 1. Start the server and navigate to [http://localhost:3000/directors](http://localhost:3000/directors); verify that the CRUD resource boilerplate was generated properly.
 1. Quickly a few rows to the directors table:
 
-       rake db:seed:directors
+        rake db:seed:directors
 
 ## Associating Directors and Movies
 
@@ -46,7 +46,7 @@ Quickly add a few rows to the movies table:
 ### Validations
 
 Let's add the following validation rules to guard our tables against bogus rows sneaking in. Refer to the [official RailsGuide on Validations](http://guides.rubyonrails.org/active_record_validations.html#numericality).
-    
+
     Movie:
      - director_id: must be present
      - title: must be present; must be unique in combination with year
