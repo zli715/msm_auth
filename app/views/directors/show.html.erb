@@ -18,12 +18,12 @@
       <dd><img src="<%= @director.image_url %>" width="100"></dd>
 
       <dt>Number of movies</dt>
-      <dd><%= Movie.where(:director_id => @director.id).count %></dd>
+      <dd><%= @director.movies.count %></dd>
 
       <dt>Filmography</dt>
       <dd>
         <ul class="list-group">
-        <% Movie.where(:director_id => @director.id).each do |zebra| %>
+        <% @director.movies.each do |zebra| %>
           <li class="list-group-item">
             <%= zebra.title %> (<%= zebra.year %>)
           </li>
