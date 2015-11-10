@@ -21,12 +21,12 @@
       <dd><%= @movie.image_url %></dd>
 
       <dt>Director</dt>
-      <dd><%= Director.find_by(:id => @movie.director_id).name %></dd>
+      <dd><%= @movie.director.name %></dd>
 
       <dt>Actors</dt>
       <dd>
         <ul class="list-group">
-          <% Character.where(:movie_id => @movie.id).each do |character| %>
+          <% @movie.characters.each do |character| %>
             <li class="list-group-item">
               <%= character.actor.name %>
               (<%= character.name %>)
