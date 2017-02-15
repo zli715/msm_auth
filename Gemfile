@@ -36,6 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development do
   gem "listen"
   gem "wdm" if Gem.win_platform?
+  gem "letter_opener"
 end
 
 gem 'rspec-rails', group: [:test, :development]
