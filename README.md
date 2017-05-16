@@ -10,6 +10,10 @@ Our starting point is the target for the last project, MSM Associations. Now we 
  - Then, users should be able to click a button on a movie's show page to bookmark it.
  - Users should be able to visit a page that shows a list of movies that they have bookmarked.
 
+## Devise Guide
+
+Have the [Devise Guide](https://guides.firstdraft.com/authentication-and-authorization-with-devise.html) open in a tab to refer to as we work together.
+
 ## Windows bcrypt error
 
 Note: Windows users, at some point you may run into an error with the bcrypt gem when you try to rails db:seed or sign in with the admin user. In order to resolve,
@@ -53,13 +57,10 @@ Note: Windows users, at some point you may run into an error with the bcrypt gem
 
  1. Fork, clone, and open the code.
  1. `bundle install`
+ 1. `rails db:migrate`
  1. Start the server and navigate to [http://localhost:3000](http://localhost:3000)
  1. Quickly pre-populate some data:
 
     ```
     rake db:seed:characters
     ```
-
-## Devise Guide
-
-Have the [Devise Guide](https://guides.firstdraft.com/authentication-and-authorization-with-devise.html) open in a tab to refer to as we work together.
