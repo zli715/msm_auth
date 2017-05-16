@@ -2,6 +2,8 @@
 
 In this project, we'll practice using the Devise gem to add authentication and authorization.
 
+Our goal is to allow users to bookmark movies that they intend to watch or that they loved. **In other words, we need to be able to identify users and tailor the application for them, rather than having the app treat all visitors the same.**
+
 ## Windows bcrypt error
 
 Note: Windows users, at some point you may run into an error with the bcrypt gem when you try to rails db:seed or sign in with the admin user. In order to resolve,
