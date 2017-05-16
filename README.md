@@ -2,6 +2,10 @@
 
 In this project, we'll practice using the Devise gem to add authentication and authorization.
 
+## Windows bcrypt error
+
+Note: Windows users, at some point you may run into an error with the bcrypt gem when you try to rails db:seed or sign in with the admin user. In order to resolve,
+
  1. Shut down your `rails server` if you have one running, and/or
  1. Launch Command Prompt with Ruby on Rails, and navigate to your project  folder.
  1. At the command line, run:
