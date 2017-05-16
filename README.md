@@ -7,7 +7,7 @@ Our goal is to allow users to bookmark movies that they intend to watch or that 
 Our starting point is the target for the last project, MSM Associations. Now we want to add the following:
 
  - Make the "Dummy" sign in, edit profile, etc, links actually work; users should be able to register with their email and password. How can we achieve this?
- - Then, users should be able to click a link on a movie's show page to bookmark it.
+ - Then, users should be able to click a button on a movie's show page to bookmark it.
  - Users should be able to visit a page that shows a list of movies that they have bookmarked.
 
 ## Windows bcrypt error
