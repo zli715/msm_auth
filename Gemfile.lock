@@ -41,6 +41,13 @@ GEM
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (7.1.4)
+    awesome_print (1.7.0)
+    better_errors (2.1.1)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
+      rack (>= 0.9.0)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
     builder (3.2.3)
     capybara (2.14.0)
       addressable
@@ -49,6 +56,7 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    coderay (1.1.1)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.1.x)
@@ -57,6 +65,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    debug_inspector (0.0.3)
     diff-lcs (1.3)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -106,6 +115,12 @@ GEM
     nio4r (2.0.0)
     nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-rails (0.3.6)
+      pry (>= 0.10.4)
     public_suffix (2.0.5)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -166,6 +181,7 @@ GEM
     sdoc (0.4.2)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    slop (3.6.0)
     sprockets (3.7.1)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -191,6 +207,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
+  better_errors
+  binding_of_caller
   capybara
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
@@ -198,6 +217,7 @@ DEPENDENCIES
   kaminari
   letter_opener
   listen
+  pry-rails
   rails (= 5.0.2)
   rspec-rails
   sass-rails (~> 5.0)

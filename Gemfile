@@ -37,6 +37,10 @@ group :development do
   gem "listen"
   gem "wdm" if Gem.win_platform?
   gem "letter_opener"
+  gem 'pry-rails'
+  gem 'awesome_print'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 gem 'rspec-rails', group: [:test, :development]
