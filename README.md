@@ -4,6 +4,12 @@ In this project, we'll practice using the Devise gem to add authentication and a
 
 Our goal is to allow users to bookmark movies that they intend to watch or that they loved. **In other words, we need to be able to identify users and tailor the application for them, rather than having the app treat all visitors the same.**
 
+Our starting point is the target for the last project, MSM Associations. Now we want to
+
+ - Make the "Dummy" sign in, edit profile, etc, links actually work; users should be able to register with their email and password. How can we achieve this?
+ - Then, users should be able to click a link on a movie's show page to bookmark it.
+ - Users should be able to visit a page that shows a list of movies that they have bookmarked.
+
 ## Windows bcrypt error
 
 Note: Windows users, at some point you may run into an error with the bcrypt gem when you try to rails db:seed or sign in with the admin user. In order to resolve,
