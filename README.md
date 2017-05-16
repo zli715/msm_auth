@@ -53,6 +53,7 @@ Note: Windows users, at some point you may run into an error with the bcrypt gem
 
  1. Fork, clone, and open the code.
  1. `bundle install`
+ 1. `rails db:migrate`
  1. Start the server and navigate to [http://localhost:3000](http://localhost:3000)
  1. Quickly pre-populate some data:
 
