@@ -9,9 +9,6 @@ In this project, we'll practice using the Devise gem to add authentication and a
 1. Start the server and navigate to [http://localhost:3000](http://localhost:3000)
 1. Quickly pre-populate some data:
 
-        rake db:seed:directors
-        rake db:seed:movies
-        rake db:seed:actors
         rake db:seed:characters
 
 ## Devise Guide
